@@ -1,0 +1,14 @@
+header{
+    border: 1px solid red;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    border: 1px solid red;
+    justify-content: center;
+    gap: 2%;
+}
+main+section{
+    border: 1px solid green;
+}
